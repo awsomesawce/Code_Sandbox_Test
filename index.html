@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Static Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Black+Ops+One&family=Bungee&family=Bungee+Shade&family=Creepster&family=Ewert&family=Fruktur&family=Gravitas+One&family=Lato:ital,wght@0,100;0,300;0,400;1,400&family=Monoton&family=Rubik:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <title>New Development Test by Carl</title>
+
+    <style>
+      .gravitas {
+        font-family: "Gravitas One", cursive;
+      }
+      .bungee {
+        font-family: "Bungee Shade", sans-serif;
+      }
+      .lato {
+        font-family: "Lato", sans-serif;
+      }
+      .monoton {
+        font-family: "Monoton", sans-serif;
+      }
+      #devmessage {
+        background-color:rgba(39, 39, 168, 0.603);
+        color:mintcream;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1>This is a static template, there is no bundler or bundling involved!</h1>
+    <header class="bungee">
+      <h1>
+        This is a static template, there is no bundler or bundling involved!
+      </h1>
+      <div class="lato" id="devmessage">
+        <h3>This site is still under development!</h4>
+        <p>Please check back later for updates!</p>
+        <p style="font-size:11pt;">This is gonna be super cool!  Even when you right click the editor, it brings up pretty much the same right-click menu as VSC!  I wonder what <a href="http://vscodium.com">VSCodium</a> is like</p>
+      </div>
+    </header>
+    <main class="lato" id="main">
+      <p>I want to be able to assign dependencies inside a static webpage</p>
+      <p>
+        I want to start from a template for Bootstrap. But I guess I'll have to
+        do it the annoying way.
+      </p>
+      <p>
+        So ok, in order to get my site up and deployed, I can use either Netlify
+        or Vercel. If I want to, I could create a Gatsby template, which I could
+        then automatically deploy using Netlify or Vercel.
+      </p>
+      <p>
+        So the question is, why would I use Gatsby straight up if I could do the
+        same thing by using <a href="http://codesandbox.com">CodeSandbox</a> or
+        <a href="http://stackblitz.com">Stackblitz?</a>
+      </p>
+    </main>
+    <footer>Carl Capodice Copyright 2020</footer>
   </body>
 </html>
