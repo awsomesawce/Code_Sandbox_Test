@@ -4,13 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="To boldly go where no man has gone before, but also to test out these fancy new online IDE frameworks and make an informed desicion to switch to online web development" />
+    
     <link
       href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Black+Ops+One&family=Bungee&family=Bungee+Shade&family=Creepster&family=Ewert&family=Fruktur&family=Gravitas+One&family=Lato:ital,wght@0,100;0,300;0,400;1,400&family=Monoton&family=Rubik:wght@900&display=swap"
       rel="stylesheet"
     />
     <title>New Development Test by Carl</title>
 
+    <link rel="stylesheet" href="stylesone.css">
+
     <style>
+      p#test {
+      display: none;
+      background-color: yellow;
+      padding: 20px;
+}
+      div:hover p#test {
+        display:block;
+      }
       .gravitas {
         font-family: "Gravitas One", cursive;
       }
@@ -33,7 +45,7 @@
   <body>
     <header class="bungee">
       <h1>
-        This is a static template, there is no bundler or bundling involved!
+        TEMPLATING 101
       </h1>
       <div class="lato" id="devmessage">
         <h3>This site is still under development!</h4>
@@ -58,6 +70,13 @@
         <a href="http://stackblitz.com">Stackblitz?</a>
       </p>
     </main>
+    <div>Hover over me to show the p#test element
+      <p id="test">Hello!</p>
+    </div>
+    <div>
+      now I will try that again in a different div and see whether it affects the first <code>&lt;div&gt;</code>
+      <p id="test">Hello again!</p>
+    </div>
     <footer>Carl Capodice Copyright 2020</footer>
   </body>
 </html>
