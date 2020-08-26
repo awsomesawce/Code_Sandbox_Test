@@ -44,21 +44,31 @@
   </head>
   <body>
     <header class="bungee">
-      <h1>
+      <h1 style="text-align: center;">
         TEMPLATING 101
       </h1>
       <div class="lato" id="devmessage">
         <h3>This site is still under development!</h4>
         <p>Please check back later for updates!</p>
-        <p style="font-size:11pt;">This is gonna be super cool!  Even when you right click the editor, it brings up pretty much the same right-click menu as VSC!  I wonder what <a href="http://vscodium.com">VSCodium</a> is like</p>
+        <p style="font-size:11pt;">This is gonna be super cool!  Even when you right click the editor, it brings up pretty much the same right-click menu as VSC!  I wonder what <a href="http://vscodium.com">VSCodium</a> is like...</p>
       </div>
     </header>
     <main class="lato" id="main">
-      <p>I want to be able to assign dependencies inside a static webpage</p>
+      <p>I want to be able to <mark>assign dependencies</mark> inside a static webpage</p>
       <p>
-        I want to start from a template for Bootstrap. But I guess I'll have to
+        I want to start from a template for <a href="https://getbootstrap.com">Bootstrap</a>. But I guess I'll have to
         do it the annoying way.
+
       </p>
+      
+      <section>
+        <p>In <a href="http://jsfiddle.com">JSFiddle</a> for example, I can add dependencies on the fly, whether it be a CSS or JS file, a CDN delivered framework, etc.</p>
+        <p>It doesn't seem like that is the case in Code Sandbox.</p>
+        <article>
+        <h3>I'm still learning!</h3>
+        <p>There are still a lot of things I have to learn about different web technologies, and it's important to not take on more than I can handle.  I still need to up my game a little bit in CSS before I graduate to using a CSSGrid system like Bootstrap.  For instance, there's a CSSGrid template on jsFiddle which uses a bunch of techniques I've never seen before to essentially get the same result as using "col" classes in Bootstrap.</p>
+          </article>
+      </section>
       <p>
         So ok, in order to get my site up and deployed, I can use either Netlify
         or Vercel. If I want to, I could create a Gatsby template, which I could
@@ -77,6 +87,8 @@
       now I will try that again in a different div and see whether it affects the first <code>&lt;div&gt;</code>
       <p id="test">Hello again!</p>
     </div>
+    <hr>
+    
     <footer>Carl Capodice Copyright 2020</footer>
   </body>
 </html>
