@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Black+Ops+One&family=Bungee&family=Bungee+Shade&family=Creepster&family=Ewert&family=Fruktur&family=Gravitas+One&family=Lato:ital,wght@0,100;0,300;0,400;1,400&family=Monoton&family=Rubik:wght@900&display=swap"
       rel="stylesheet"
     />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <title>New Development Test by Carl</title>
 
     <link rel="stylesheet" href="stylesone.css">
@@ -19,12 +21,27 @@
         margin-left: 40px;
         margin-right: 40px;
       }
+      #main {
+        background:linear-gradient(rgb(223, 189, 189),rgb(201, 201, 166),rgb(233, 215, 182));
+      }
       
       p#test {
       display: none;
       background-color: yellow;
       padding: 20px;
 }
+      section {
+        margin:40px;
+        padding-left:20px;
+        padding-right: 20px;
+        display:block;
+      }
+      section div {
+        margin:20px;
+        padding:20px;
+        
+      }
+      
       div:hover p#test {
         display:block;
       }
@@ -37,19 +54,31 @@
       .lato {
         font-family: "Lato", sans-serif;
       }
+      .ubuntufont {
+        font-family: 'Ubuntu', sans-serif;
+      }
       .monoton {
         font-family: "Monoton", sans-serif;
+      }
+      #lower {
+        font-family: "Roboto Slab", serif;
       }
       #devmessage {
         background-color:rgba(39, 39, 168, 0.603);
         color:mintcream;
         text-align: center;
       }
+      header h1 {
+        text-align: center;
+        border:navy 10px solid;
+        margin-bottom:30px;
+        padding:15px;
+      }
     </style>
   </head>
   <body>
     <header class="bungee">
-      <h1 style="text-align: center;">
+      <h1>
         TEMPLATING 101
       </h1>
       <div class="lato" id="devmessage">
@@ -59,19 +88,29 @@
         <p style="font-size:11pt;">This is gonna be super cool!  Even when you right click the editor, it brings up pretty much the same right-click menu as VSC!  I wonder what <a href="http://vscodium.com">VSCodium</a> is like...</p>
       </div>
     </header>
-    <main class="lato" id="main">
-      <p>I want to be able to <mark>assign dependencies</mark> inside a static webpage</p>
+    <hr>
+    <main class="ubuntufont" id="main">
+      <p>I want to be able to <mark>assign dependencies</mark> inside a static webpage.</p>
       <p>
         I want to start from a template for <a href="https://getbootstrap.com">Bootstrap</a>. But I guess I'll have to
-        do it the annoying way.
+        do it the annoying way.<br>
+        Although, my other page <b>is</b> made with <a href="http://getbootstrap.com">Bootstrap</a>.
 
       </p>
+      <div class="container-flex">
+        <h3>BUT here's the thing...</h3>
+        <p>Code Sandbox allows for cdn-delivered dependencies...I can link the bootstrap css file in the <code>&lt;head&gt;</code>.</p>
+        <p><em>CodeSandbox</em> seems to work a bit better than <em>Stackblitz</em></p>
+        <p>For instance, I can click on a link to another page inside the preview pane, and it will load!  That doesn't happen in stackblitz.</p>
+        <p>For some reason when you click on a link to another page in your site in the <em>Stackblitz</em> preview pane, it just reloads <code>index.html</code>.</p>
+      </div>
       
       <section>
-        <p>In <a href="http://jsfiddle.com">JSFiddle</a> for example, I can add dependencies on the fly, whether it be a CSS or JS file, a CDN delivered framework, etc.</p>
-        <p>It doesn't seem like that is the case in Code Sandbox.</p>
+        <p>But in <a href="http://jsfiddle.com">JSFiddle</a> for example, I can add dependencies on the fly, whether it be a CSS or JS file, a CDN delivered framework, etc.</p>
+        <p>It doesn't seem like that is the case in Code Sandbox.  Stackblitz allows you to add dependencies on the fly in the sidebar.  I guess with codesandbox, if you use the static page template, the dependencies menu on the sidebar is invisible.  I wonder if there's a way to activate it...</p>
+
         <article>
-        <h3>I'm still learning!</h3>
+        <div class="text-center" style="text-align: center;font-stretch:expanded; font-size: 42px;">Anyway...<h2>I'm still <em>learning</em>!</h2></div>
         <p>There are still a lot of things I have to learn about different web technologies, and it's important to not take on more than I can handle.  I still need to up my game a little bit in CSS before I graduate to using a CSSGrid system like Bootstrap.  For instance, there's a CSSGrid template on jsFiddle which uses a bunch of techniques I've never seen before to essentially get the same result as using "col" classes in Bootstrap.</p>
           </article>
       </section>
@@ -100,6 +139,8 @@
       <p>I tried using the appending the github URL with "box" trick.  I appended "box" in between "github" and ".com" in the URL, clicked enter, and lo and behold, the template loaded but absolutely failed to load correctly in the preview pane.</p>
       <p>Emmet abbreviations work here in the online editor, which is nice, but a lot of other things are missing.  I tend to prefer the easy UI available in VSC and Atom, and the ability to add snippets to make it easy to type out <b>code blocks</b> that you use often.</p>
       <p>If there's a way to do that here in the cloud, that would make me more prone to use this environment.</p>
+      <p id="test">This is a test.  But how come right there the emmet abbrs didn't work?<br>
+      Also, there are two instances of me up in the top right corner... </p>
     </div>
   </section>
     <hr>
