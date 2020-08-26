@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="stylesone.css">
 
     <style>
+      main {
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      
       p#test {
       display: none;
       background-color: yellow;
@@ -50,6 +55,7 @@
       <div class="lato" id="devmessage">
         <h3>This site is still under development!</h4>
         <p>Please check back later for updates!</p>
+        <p>Please check out the other page on this site <a href="newpage.html">HERE</a></p>
         <p style="font-size:11pt;">This is gonna be super cool!  Even when you right click the editor, it brings up pretty much the same right-click menu as VSC!  I wonder what <a href="http://vscodium.com">VSCodium</a> is like...</p>
       </div>
     </header>
@@ -80,6 +86,7 @@
         <a href="http://stackblitz.com">Stackblitz?</a>
       </p>
     </main>
+  <section id="lower">
     <div>Hover over me to show the p#test element
       <p id="test">Hello!</p>
     </div>
@@ -87,6 +94,14 @@
       now I will try that again in a different div and see whether it affects the first <code>&lt;div&gt;</code>
       <p id="test">Hello again!</p>
     </div>
+    <div>
+      <h2>The advantages/disadvatages of cloud-based development environments</h2>
+      <p>There are many services out there that enable you to develop and test code in the cloud.  I find that both local and cloud-based environments have their pros and cons.  One problem I've ran into is importing a github repository into <a href="http://codesandbox.io">Codesandbox.io</a></p>
+      <p>I tried using the appending the github URL with "box" trick.  I appended "box" in between "github" and ".com" in the URL, clicked enter, and lo and behold, the template loaded but absolutely failed to load correctly in the preview pane.</p>
+      <p>Emmet abbreviations work here in the online editor, which is nice, but a lot of other things are missing.  I tend to prefer the easy UI available in VSC and Atom, and the ability to add snippets to make it easy to type out <b>code blocks</b> that you use often.</p>
+      <p>If there's a way to do that here in the cloud, that would make me more prone to use this environment.</p>
+    </div>
+  </section>
     <hr>
     
     <footer>Carl Capodice Copyright 2020</footer>
