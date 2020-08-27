@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="To boldly go where no man has gone before, but also to test out these fancy new online IDE frameworks and make an informed desicion to switch to online web development" />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Black+Ops+One&family=Bungee&family=Bungee+Shade&family=Creepster&family=Ewert&family=Fruktur&family=Gravitas+One&family=Lato:ital,wght@0,100;0,300;0,400;1,400&family=Monoton&family=Rubik:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <title>New Development Test by Carl</title>
+
+    <link rel="stylesheet" href="stylesone.css">
+
+    <style>
+      main {
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      #main {
+        background:linear-gradient(rgb(223, 189, 189),rgb(201, 201, 166),rgb(233, 215, 182));
+      }
+      
+      p#test {
+      display: none;
+      background: linear-gradient(rgb(250, 198, 191),orange,red);
+      padding: 20px;
+}
+      section {
+        margin:40px;
+        padding-left:20px;
+        padding-right: 20px;
+        display:block;
+      }
+      section div {
+        margin:20px;
+        padding:20px;
+        
+      }
+      
+      div:hover p#test {
+        display:block;
+      }
+      .gravitas {
+        font-family: "Gravitas One", cursive;
+      }
+      .bungee {
+        font-family: "Bungee Shade", sans-serif;
+      }
+      .lato {
+        font-family: "Lato", sans-serif;
+      }
+      .ubuntufont {
+        font-family: 'Ubuntu', sans-serif;
+      }
+      .monoton {
+        font-family: "Monoton", sans-serif;
+      }
+      #lower {
+        font-family: "Roboto Slab", serif;
+      }
+      #devmessage {
+        background-color:rgba(39, 39, 168, 0.603);
+        color:mintcream;
+        text-align: center;
+      }
+      header h1 {
+        text-align: center;
+        border:navy 10px solid;
+        margin-bottom:30px;
+        padding:15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bungee">
+      <h1>
+        TEMPLATING 101
+      </h1>
+      <div class="lato" id="devmessage">
+        <h3>This site is still under development!</h4>
+        <h2>This page will be a demonstration of the capabilites of <a href="http://purecss.com">Pure CSS</a></h2>
+        <p>There exists no <abbr title="Visual Studio Code">VSC</abbr> extensions to help me on my quest.</p>
+      </div>
+    </header>
+    <hr>
+    <main class="ubuntufont" id="main">
+     
+      <div>
+        <h3>This is an h3 inside a div inside the main.main</h3>
+        <p>This is the paragraph below the h3</p>
+        <p class="test">This is another test of that CSS property that allows elements to be hidden until you hover over a certain place.</p>
+      </div>
+      
+      <section>
+        <h2>This is an h2 inside a section, which is inside the <code>&lt;main&gt;</code></h2>
+
+        <article>
+            <h1>This is an <mark>h1</mark> inside an <mark>article</mark>, which is inside <mark>main</mark></h1>
+        
+        </article>
+        </section>
+    </main>
+  <section id="lower">
+    <div>Hover over me to show the p#test element
+      <p id="test">Hello!</p>
+    </div>
+    <div>
+      now I will try that again in a different div and see whether it affects the first <code>&lt;div&gt;</code>
+      <p id="test">Hello again!</p>
+    </div>
+    <div>
+      <h2>The advantages/disadvatages of cloud-based development environments</h2>
+      <p>There are many services out there that enable you to develop and test code in the cloud.  I find that both local and cloud-based environments have their pros and cons.  One problem I've ran into is importing a github repository into <a href="http://codesandbox.io">Codesandbox.io</a></p>
+      <p>I tried using the appending the github URL with "box" trick.  I appended "box" in between "github" and ".com" in the URL, clicked enter, and lo and behold, the template loaded but absolutely failed to load correctly in the preview pane.</p>
+      <p>Emmet abbreviations work here in the online editor, which is nice, but a lot of other things are missing.  I tend to prefer the easy UI available in VSC and Atom, and the ability to add snippets to make it easy to type out <b>code blocks</b> that you use often.</p>
+      <p>If there's a way to do that here in the cloud, that would make me more prone to use this environment.</p>
+      <p id="test">This is a test.  But how come right there the emmet abbrs didn't work (inside codesandbox.io's editor)?<br>
+      Also, there are two instances of me up in the top right corner... </p>
+    </div>
+  </section>
+    <hr>
+    
+    <footer>Carl Capodice Copyright 2020</footer>
+  </body>
+</html>
