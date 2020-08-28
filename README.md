@@ -11,11 +11,11 @@ I plan on making this a template, but for some reason I'm having trouble doing s
 
 *That's bull$#!%.*
 
-Why can't I add dependencies in an easy way like you can on other sandbox websites?.
+Why can't I add dependencies in codesandbox.com in an easy way like you can on other templates?.
 
 ## What do I plan on doing with this project?
 
-A few things
+#### Goals and Tasks
 
 * I'd like to make an entire site and develop my own CSS layouts and Bootstrap templates.
 * I'd like to fully develop this site online only.  I won't be cloning the repository to my local computer and editing from there.  This will require me to really get a handle on how this webapp works.
