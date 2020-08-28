@@ -2,3 +2,75 @@
 body {
   font-family: "lato", sans-serif;
 }
+nav a {
+  margin: 20px;
+}
+main {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#main {
+  background: linear-gradient(rgb(223, 189, 189), rgb(201, 201, 166), rgb(233, 215, 182));
+}
+
+p#test {
+  display: none;
+  background: linear-gradient(rgb(250, 198, 191), orange, red);
+  padding: 20px;
+}
+
+section {
+  margin: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+}
+
+section div {
+  margin: 20px;
+  padding: 20px;
+
+}
+
+div:hover p#test {
+  display: block;
+}
+
+.gravitas {
+  font-family: "Gravitas One", cursive;
+}
+
+.bungee {
+  font-family: "Bungee Shade", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.ubuntufont {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.monoton {
+  font-family: "Monoton", sans-serif;
+}
+
+#lower {
+  font-family: "Roboto Slab", serif;
+}
+
+#devmessage {
+  background-color: rgba(39, 39, 168, 0.603);
+  color: mintcream;
+  text-align: center;
+}
+
+header h1 {
+  text-align: center;
+  border: navy 10px solid;
+  margin-bottom: 30px;
+  padding: 15px;
+  font-family: "Bungee Shade", sans-serif;
+}
