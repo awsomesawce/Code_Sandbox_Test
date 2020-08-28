@@ -19,6 +19,14 @@ p#test {
   background: linear-gradient(rgb(250, 198, 191), orange, red);
   padding: 20px;
 }
+a#hide {
+  display: none;
+  background:navy;
+  color:white;
+}
+nav:hover a#hide {
+  display: inline;
+}
 
 section {
   margin: 40px;
