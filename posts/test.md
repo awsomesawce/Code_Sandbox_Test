@@ -10,7 +10,8 @@ So I created this test file, commited it, pushed it, and **THEN** the folder sho
 Now I have a fully-synced **StackEdit** workspace that automatically syncs with where it was established (/posts).  So I have two options to write posts on my Jekyll site!  Well, really there are dozens of options, but I'm trying to find the most streamlined way to do so.
 I have now created my own page on GitHub that uses Markdown as it's portrayer of content!  And using awesome apps like StackEdit and MarkText and HackMD and Crossnote.app, I can post to my own customized GitHub site that accepts GitHub flavored Markdown!
 
-###### Please excuse my excitement and rambling, I'm just excited I got Jekyll to finally work in a way 
+###### Please excuse my excitement and rambling, I'm just excited I got Jekyll to finally work
+##### Now I can really go ham and test things and try out other things using Jekyll and a direct access to a full-fledge deployed website.  Well, I shouldn't say "full-fledged" but it's a cool framework I can play around with to get used to everything.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2NjE3NjY3XX0=
+eyJoaXN0b3J5IjpbODc5MzI5MzUxXX0=
 -->
