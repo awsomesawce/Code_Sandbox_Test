@@ -15,6 +15,8 @@ Why can't I add dependencies in codesandbox.com in an easy way like you can on o
 
 ## What do I plan on doing with this project?
 
+**Check out the wiki for more detailed todo list and tasks**
+
 #### Goals and Tasks
 
 * I'd like to make an entire site and develop my own CSS layouts and Bootstrap templates.
