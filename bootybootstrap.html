@@ -7,11 +7,12 @@
       name="description"
       content="Carl's codesandbox.com test.  Looks very similar to stackblitz but is different in other ways"
     />
+    <meta name="author" content="Carl Capodice" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="og:title" content="This is an HTML5 boilerplate" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
+    <meta property="og:title" content="HTML Boilerplate plus Bootstrap functionality" />
+    <meta property="og:type" content="HTML Document" />
+    <meta property="og:url" content="n/a" />
     <meta property="og:image" content="" />
 
     <link rel="manifest" href="site.webmanifest" />
@@ -36,6 +37,7 @@
       href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Black+Ops+One&family=Bungee&family=Bungee+Shade&family=Creepster&family=Ewert&family=Fruktur&family=Gravitas+One&family=Lato:ital,wght@0,100;0,300;0,400;1,400&family=Monoton&family=Rubik:wght@900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Inconsolata&family=Merriweather&family=Merriweather+Sans&family=Noto+Serif&family=Nunito&family=Nunito+Sans&family=Open+Sans&family=Quattrocento&family=Quattrocento+Sans&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="stylesone.css">
     <!-- <link rel="stylesheet" href="newbstheme.css" />
@@ -51,14 +53,16 @@
     <meta name="theme-color" content="#fafafa" />
     <style>
     body {
-        font-family: 'Roboto Slab', 'Times New Roman', serif;
+        /*font-family: 'Roboto Slab', 'Times New Roman', serif;*/
+        font-family: 'Alegreya Sans', 'Source Sans Pro', sans-serif;
     }
     
     .fa-css3 {
         font-size: 4rem;
     }
+
     nav.navbar {
-        justify-content: right;
+        justify-content: center;
         align-items:flex-end;
     }
     .navbar a {
@@ -75,6 +79,24 @@
     .navbar h3 {
         font-family: 'Montserrat', sans-serif;
         text-align:left;
+    }
+    .navbar span {
+      font-family: 'Open Sans', 'Roboto', sans-serif;
+    }
+    span#what {
+      display:none;
+    }
+    nav:hover span#what {
+      display:block;
+      position: absolute;
+      background:linear-gradient(red,blue,navy);
+      color:beige;
+    }
+    p#tada {
+      display:none;
+    }
+    div.reveal:hover p#tada {
+      display:block;
     }
     </style>
   </head>
@@ -93,9 +115,13 @@
           <a href="template.html">template.html</a>
           <a href="backup_and_tests/purecss_test.html">purecss_test.html</a>
           <a href="bootybootstrap">bootybootstrap.html</a>
-      
+          <span id="what">Click on any link!</span>
     </nav>
     <!-- Add your site or application content here -->
+    <div id="devmessage">
+      <h2>This is a development message</h2>
+      <p>This part of the page is reserved for important development messages that need to be posted.</p>
+    </div>
     <main class="container">
       <h3 class="text-center">This is the main section of my site</h3>
       <p>
@@ -105,7 +131,16 @@
       </p>
     </main>
     <div class="container description" id="middle">
-      <h2>This page uses Bootstrap's CSS to stylize this site</h2>
+      <h2>This page uses Bootstrap's CSS to stylize this site.</h2>
+      <p>I just installed <b>VSCodium</b>!  It's pretty much exactly the same as regular old Visual Studio Code!</p>
+    </div>
+    <div class="container reveal">
+      <h2>Hover over this.</h2>
+      <p class="lead" id="tada">This is fucking bullshit.  Why is it so hard to get good performance out of this laptop.  I know it's a work laptop, but 
+        I just wanted a laptop that provided midrange capabilities for rendering games.  And it doesn't even show up in AMD's metrics as a GPU!
+        I know they just want you to buy new shit, but fuck man.  Also, it says it's supposed to have decent graphics because it has 1200 mhz speeds and 2Gb of VRam.
+        But it just doesn't act like it!
+      </p>
     </div>
 
     <footer>This part of the page has been added using the local branch</footer>

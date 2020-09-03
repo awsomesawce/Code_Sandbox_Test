@@ -1,6 +1,13 @@
 /* This is my main CSS file */
 body {
-  font-family: "lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+code {
+  font-family: 'Source Code Pro', 'Inconsolata', 'Lucida Sans Console', monospace;
+}
+
+pre {
+  font-family: 'Courier New', 'Consolas', 'Lucida Sans Console', monospace;
 }
 nav a {
   margin: 20px;
