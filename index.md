@@ -1,5 +1,9 @@
 ## Welcome to GitHub Pages
 
+This branch has been automatically created by GitHub Pages.  My goal is to use **StackEdit** to automatically sync with this branch, and a folder named /posts.  This branch "gh-pages" is empty compared to the master branch.  Now I could either merge the branches together or keep gh-pages as it's own separate branch.  The <code>gh-pages</code> branch automatically builds to https://awsomesawce.github.io/code-sandbox-test/
+
+## From Default Readme
+
 You can use the [editor on GitHub](https://github.com/awsomesawce/Code_Sandbox_Test/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
