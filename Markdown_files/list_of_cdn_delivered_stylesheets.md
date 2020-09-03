@@ -18,5 +18,5 @@
 
 ## Goto https://purecss.io/customize/ to use different CDNs or only use certain elements of the framework
 
-
+Check out this [gist](https://gist.github.com/ecdbced33c215e19b8711541718a9609) for an updated version of this document.
 
