@@ -37,7 +37,7 @@ The point is, I could have just used the *synchronize* option instead.  I didn't
 * Publish to **Gist**
 * Publish to **GitHub**
 * Publish to **Google Drive**
-
+I find this feature to be useful if you want to use StackEdit to compose a Blogger
 
 
 
@@ -54,5 +54,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlsyMDU0MzEyNzg5XX0=
+0sImhpc3RvcnkiOlsxMTM3MTI0NjUxXX0=
 -->
