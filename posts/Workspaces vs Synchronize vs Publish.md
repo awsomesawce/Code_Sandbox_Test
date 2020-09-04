@@ -69,7 +69,7 @@ If you choose to just use **one workspace**, you can use *folders* to organize y
 ## In conclusion
 **StackEdit** is a great, open source, feature packed, Markdown-powered service that I am having so much fun using.  It's great for really anyone who enjoys writing and/or using **Markdown**.  The interface and UI are simple, yet succinct, and it takes no time at all to load.  So if you enjoy writing in a minimalist environment and enjoy the simplicity of synchronizing everything together, use StackEdit.  It's also easily usable on mobile!  They don't have an app for it (*yet*) but the web interface works just fine for me.  Just go to https://stackedit.io in a browser (mobile/desktop) and you're all set!
 
-
+If you like to write in "**Dark Mode**", I would suggest using 
 
 
 
@@ -84,5 +84,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlstNzYxNzc5MzA1XX0=
+0sImhpc3RvcnkiOlstMTI1OTYxMjAwMF19
 -->
