@@ -18,16 +18,19 @@ I currently have **4** workspaces.  Why so many?  Mostly because I'm testing out
 You see, my goal was to link my StackEdit to a GitHub repository and have StackEdit push and pull my posts to a Jekyll blog, and that way I could create new posts using StackEdit's cool interface to compose!
 It turns out there are many ways I could have done so.
 Right now I have a workspace that's linked to my `/posts` folder on the `gh-pages` branch in my primary GitHub repo, so no matter where I create/upload my posts they will always be synced with that StackEdit workspace.
-
+## Other sync options
 Now let me explain the other syncronization options in StackEdit.
-In addition to **workspaces**, you can synchronize *individual* writings in the cloud using many different services.  They are:
+In addition to **workspaces**, you can synchronize *individual* writings/posts/notes in the cloud using many different services.  They are:
 * **Dropbox**
 * **GitHub**
 * **A GitHub Gist**
 *  **Google Drive**
 
-When you *synchronize* a file, you can do so from any workspace.  *Files from one workspace won't be accessible from another workspace unless you navigate to that workspace*.  
+>When you *synchronize* a file, you can do so from any workspace.  *Files from one workspace won't be accessible from another workspace unless you navigate to that workspace*.  
 The point is, I could have just used the *synchronize* option instead.  I didn't have to create an entire new **workspace** in order to work with my GitHub files.  The downside to this is if files are added using another method, they won't be synced to your StackEdit unless you use the *workspace* option.
+
+## The Publish option
+**StackEdit** also has a *publish* option.  This acts like an *export*, meaning 
 
 
 
@@ -45,5 +48,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlstMTE2ODQ4ODYxMF19
+0sImhpc3RvcnkiOlsxMzg0NDc3MDZdfQ==
 -->
