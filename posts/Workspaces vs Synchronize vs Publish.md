@@ -48,7 +48,11 @@ You can also choose the template of your export.  You have the choices of either
 * Plain text
 * Plain HTML
 * Styled HTML
-* Styled HTML with <abbr title="Table of Contents
+* Styled HTML with <abbr title="Table of Contents">TOC</abbr>
+* or Jekyll Site
+
+In addition to exporting to the web, you can import/export to/from your computer.  You have those same options as far as templates.
+I've tested the "**Styled HTML**" template out, and it looks beautiful!  It even uses
 
 ### Keeping track of sync destinations
 If you choose to sync or publish your writing to multiple destinations, **StackEdit** makes it really easy for you to keep track of those destinations.  A little icon will be displayed next to the file name for each service you have it synced to.  There is also a list in the right sidebar menu as to where you are syncing/publishing to.  It also displays a link to the file for each destination.
@@ -80,5 +84,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlstMTA5MzMxNzM0NF19
+0sImhpc3RvcnkiOlstMTg1NTExMjY3NF19
 -->
