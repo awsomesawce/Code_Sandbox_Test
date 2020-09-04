@@ -9,13 +9,16 @@ StackEdit doesn't require you to add a workspace.  By default, it stores your no
 You can set up a workspace 5 different ways:
 * **GoogleDrive** - *by default will store in your appdata folder*
 * **CouchDB**
-* **GitHub** - links your workspace to a repository of your choice
+* **GitHub** - links your workspace to a repository/branch/folder of your choice
 * **GitLab** - much of the same
-Any number of workspaces can be created.  For example you can have multiple GoogleDrive workspaces.  The first one will by default just lead to your invisible **AppData** folder, but you can create a Go
+
+Any number of workspaces can be created.  For example you can have multiple GoogleDrive workspaces.  The first one will by default just lead to your invisible **AppData** folder, but you can create a GoogleDrive workspace to sync with a specific folder if you want.
+I currently have **4** workspaces.  Why so many? 
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODI2MDgyODhdfQ==
+eyJoaXN0b3J5IjpbLTkxMTI1NjAwOF19
 -->
