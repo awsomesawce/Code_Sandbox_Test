@@ -17,7 +17,12 @@ I currently have **4** workspaces.  Why so many?  Mostly because I'm testing out
 You see, my goal was to link to a GitHub repository and have StackEdit push and pull my posts to a Jekyll blog, and that way I could create new posts using StackEdit's cool interface to compose!
 It turns out there are many ways I could have done so.
 Right now I have a workspace that's linked to my `/posts` folder on the `gh-pages` branch in my primary GitHub repo, so no matter where I create/upload my posts they will always be synced with that StackEdit workspace.
-Now let me explain the other syncronization option
+Now let me explain the other syncronization options in StackEdit.
+In addition to **workspaces**, you can synchronize *individual* writings in the cloud using many different services.  They are:
+* **Dropbox**
+* **GitHub**
+* **A GitHub Gist**
+* 
 
 
 
@@ -32,5 +37,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlstOTg0MTkyNTg3XX0=
+0sImhpc3RvcnkiOls3OTcwMDQwNDNdfQ==
 -->
