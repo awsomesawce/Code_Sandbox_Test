@@ -42,7 +42,13 @@ The point is, I could have just used the *synchronize* option instead.  I didn't
 * **Zendesk**
 
 Just like the other options, you can add as many accounts from those services as you'd like.
-I find this feature to be useful if you want to use StackEdit to compose a Blogger or Wordpress blog post.  But if you're collaborating with other people, I'd stick to Synchronize unless you're sure you won't have to edit it again.
+I find this feature to be useful if you want to use StackEdit to compose a **Blogger** or **Wordpress** blog post.  But if you're collaborating with other people, I'd stick to *Synchronize* unless you're sure you won't have to edit it again.
+
+You can also choose the template of your export.  You have the choices of either:
+* Plain text
+* Plain HTML
+* Styled HTML
+* Styled HTML with <abbr title="Table of Contents
 
 ### Keeping track of sync destinations
 If you choose to sync or publish your writing to multiple destinations, **StackEdit** makes it really easy for you to keep track of those destinations.  A little icon will be displayed next to the file name for each service you have it synced to.  There is also a list in the right sidebar menu as to where you are syncing/publishing to.  It also displays a link to the file for each destination.
@@ -74,5 +80,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlsxMDE2NzEzOTQ5XX0=
+0sImhpc3RvcnkiOlstMTA5MzMxNzM0NF19
 -->
