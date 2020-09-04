@@ -54,7 +54,7 @@ If you have a specific post you made inside a **GitHub** workspace, it is automa
 If you choose not to sync with anything other than your workspace, it still lists your workspace destination in the "Synchronize" menu.
 
 ## In conclusion
-**StackEdit** is a great, open source, feature packed, Markdown-powered service that I am having so much fun using. 
+**StackEdit** is a great, open source, feature packed, Markdown-powered service that I am having so much fun using.  It's great for really anyone who enjoys writing and/or using **Markdown**.  The interface and UI are simple, yet succinct, and it takes no time at all to load.
 
 
 
@@ -71,5 +71,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlstMjM3MTU0MTc3XX0=
+0sImhpc3RvcnkiOlsyOTc0Mjg3ODldfQ==
 -->
