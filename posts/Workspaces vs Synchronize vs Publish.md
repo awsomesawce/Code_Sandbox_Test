@@ -45,7 +45,10 @@ Just like the other options, you can add as many accounts from those services as
 I find this feature to be useful if you want to use StackEdit to compose a Blogger or Wordpress blog post.  But if you're collaborating with other people, I'd stick to Synchronize unless you're sure you won't have to edit it again.
 
 ### Keeping track of sync destinations
-If you choose to sync or publish your writing to multiple destinations, **StackEdit** makes it really easy for you to keep track of those destinations.  A little icon will be displayed next to the file name for each service you have it synced to.  There is also a list in the right sidebar menu as to where you are syncing/publishing to.  
+If you choose to sync or publish your writing to multiple destinations, **StackEdit** makes it really easy for you to keep track of those destinations.  A little icon will be displayed next to the file name for each service you have it synced to.  There is also a list in the right sidebar menu as to where you are syncing/publishing to.  It also displays a link to the file for each destination.
+##### For example
+If you have a specific post you made inside a **GitHub** workspace, it is automatically synced with the **GitHub** destination 
+If you choose not to sync with anything other than your workspace, it still
 
 
 
@@ -62,5 +65,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlstMTU3MDg3NjMxXX0=
+0sImhpc3RvcnkiOlszNzE0MDg0NTNdfQ==
 -->
