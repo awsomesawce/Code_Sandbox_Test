@@ -31,15 +31,15 @@ The point is, I could have just used the *synchronize* option instead.  I didn't
 
 ## The Publish option
 **StackEdit** also has a *publish* option.  This acts like an *export* to the web, as opposed to synchronization.  This means if you change the post using a different method, those changes won't be reflected back to StackEdit's interface.  This option has a wider list of destinations your file can be published to.  Be aware that I'm still experimenting with this feature.
-* Publish to **Blogger**
-* Publish to **Blogger Page**
-* Publish to **Dropbox**
-* Publish to **Gist**
-* Publish to **GitHub**
-* Publish to **Google Drive**
-* Publish to **GitLab**
-* Wordpress
-* Zendesk
+* **Blogger**
+*  **Blogger Page**
+*  **Dropbox**
+*  **Gist**
+*  **GitHub**
+*  **Google Drive**
+*  **GitLab**
+* **Wordpress**
+* **Zendesk**
 
 Just like the other options, you can add as many accounts from those services as you'd like.
 I find this feature to be useful if you want to use StackEdit to compose a Blogger or Wordpress blog post.  But if you're collaborating with other people, I'd stick to Synchronize unless you're sure you won't have to edit it again.
@@ -50,6 +50,8 @@ If you choose to sync or publish your writing to multiple destinations, **StackE
 If you have a specific post you made inside a **GitHub** workspace, it is automatically synced with the **GitHub** destination you established when you set up the workspace.  If you then decide to sync with, say, your Dropbox account, and then publish the file to Wordpress using the *Publish* option, you will have a **Dropbox** and **Wordpress** icon next to the file name on the left!  
 
 ###### Pretty cool right?
+
+
 
 If you choose not to sync with anything other than your workspace, it still lists your workspace destination in the "Synchronize" menu.
 If you choose to just use **one workspace**, you can use *folders* to organize your notes.  The downside to that is if you want to sync with other destinations, you'll have to do so for each individual file.
@@ -72,5 +74,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlstMTQ1Mzg0MjE1N119
+0sImhpc3RvcnkiOlsxMDE2NzEzOTQ5XX0=
 -->
