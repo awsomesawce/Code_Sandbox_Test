@@ -30,7 +30,8 @@ In addition to **workspaces**, you can synchronize *individual* writings/posts/n
 The point is, I could have just used the *synchronize* option instead.  I didn't have to create an entire new **workspace** in order to work with my GitHub files.  The downside to this is if files are added using another method, they won't be synced to your StackEdit unless you use the *workspace* option.
 
 ## The Publish option
-**StackEdit** also has a *publish* option.  This acts like an *export*, meaning 
+**StackEdit** also has a *publish* option.  This acts like an *export*, meaning if you change the post in a different way, those changes won't be reflected back to StackEdit's interface.  This option has a wider list of destinations your file can be published to.  Be aware that I'm still experimenting with this feature
+* Publish to Blogg
 
 
 
@@ -48,5 +49,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlsxMzg0NDc3MDZdfQ==
+0sImhpc3RvcnkiOlstMjQyNDc1ODU1XX0=
 -->
