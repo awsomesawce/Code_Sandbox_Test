@@ -77,8 +77,6 @@ fontSizeFactor:  0.9
 autoSyncEvery:  100000
 ```
 
-
-
 Thanks for reading!
 
 > Written with [StackEdit](https://stackedit.io/).
@@ -90,5 +88,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlstNjM5NTg1Mzg5XX0=
+0sImhpc3RvcnkiOlstMjAzNDgxMzYxXX0=
 -->
