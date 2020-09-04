@@ -47,8 +47,14 @@ I find this feature to be useful if you want to use StackEdit to compose a Blogg
 ### Keeping track of sync destinations
 If you choose to sync or publish your writing to multiple destinations, **StackEdit** makes it really easy for you to keep track of those destinations.  A little icon will be displayed next to the file name for each service you have it synced to.  There is also a list in the right sidebar menu as to where you are syncing/publishing to.  It also displays a link to the file for each destination.
 ##### For example
-If you have a specific post you made inside a **GitHub** workspace, it is automatically synced with the **GitHub** destination you established when you set up the workspace.  If you then decide to sync with, say, your Dropbox account, and then publish the file to Wordpress using the *Publish* option, you will have a **Dropbox** and **Wo
-If you choose not to sync with anything other than your workspace, it still
+If you have a specific post you made inside a **GitHub** workspace, it is automatically synced with the **GitHub** destination you established when you set up the workspace.  If you then decide to sync with, say, your Dropbox account, and then publish the file to Wordpress using the *Publish* option, you will have a **Dropbox** and **Wordpress** icon next to the file name on the left!  
+
+###### Pretty cool right?
+
+If you choose not to sync with anything other than your workspace, it still lists your workspace destination in the "Synchronize" menu.
+
+## In conclusion
+**StackEdit** is a great, open source, feature packed, Markdown-powered service that I am having so much fun using. 
 
 
 
@@ -65,5 +71,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlstMTc3MDEwMjU3NF19
+0sImhpc3RvcnkiOlstMjM3MTU0MTc3XX0=
 -->
