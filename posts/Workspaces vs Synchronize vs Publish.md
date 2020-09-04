@@ -13,12 +13,13 @@ You can set up a workspace 5 different ways:
 * **GitLab** - much of the same
 
 Any number of workspaces can be created.  For example you can have multiple GoogleDrive workspaces.  The first one will by default just lead to your invisible **AppData** folder, but you can create a GoogleDrive workspace to sync with a specific folder if you want.
-I currently have **4** workspaces.  Why so many? 
+I currently have **4** workspaces.  Why so many?  Mostly because I'm testing out it's functionality.  My main one is attached to GoogleDrive, and the next 3 are attached to a GitHub repo.
+You see, my goal was to link to a GitHub repository and have StackEdit push my
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTI1NjAwOF19
+eyJoaXN0b3J5IjpbOTM4MTk2NDBdfQ==
 -->
