@@ -14,14 +14,15 @@ You can set up a workspace 5 different ways:
 
 Any number of workspaces can be created.  For example you can have multiple GoogleDrive workspaces.  The first one will by default just lead to your invisible **AppData** folder, but you can create a GoogleDrive workspace to sync with a specific folder if you want.
 I currently have **4** workspaces.  Why so many?  Mostly because I'm testing out it's functionality.  My main one is attached to GoogleDrive, and the next 3 are attached to a GitHub repo.
-You see, my goal was to link to a GitHub repository and have StackEdit push and pull my posts to a Jekyll blog, and that way I could create new posts using StackEdit's cool interface!
+You see, my goal was to link to a GitHub repository and have StackEdit push and pull my posts to a Jekyll blog, and that way I could create new posts using StackEdit's cool interface to compose!
 It turns out there are many ways I could have done so.
-Right now I have a workspace that's linked to my /posts folder in my primary GitHub repo, so no matter where I create my posts they will always be available on both
+Right now I have a workspace that's linked to my `/posts` folder on the `gh-pages` branch in my primary GitHub repo, so no matter where I create/upload my posts they will always be synced with StackEdit.
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTA2NTYyN119
+eyJoaXN0b3J5IjpbMTQxMDMyNDYyOV19
 -->
