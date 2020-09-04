@@ -22,7 +22,10 @@ In addition to **workspaces**, you can synchronize *individual* writings in the 
 * **Dropbox**
 * **GitHub**
 * **A GitHub Gist**
-* 
+*  **Google Drive**
+
+When you *synchronize* a file, you can do so from any workspace.  *Files from one workspace won't be accessible from another workspace unless you navigate to that workspace*
+
 
 
 
@@ -37,5 +40,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOls3OTcwMDQwNDNdfQ==
+0sImhpc3RvcnkiOlsxMzkxMDA3MzU2XX0=
 -->
