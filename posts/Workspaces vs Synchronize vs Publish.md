@@ -42,7 +42,10 @@ The point is, I could have just used the *synchronize* option instead.  I didn't
 * Zendesk
 
 Just like the other options, you can add as many accounts from those services as you'd like.
-I find this feature to be useful if you want to use StackEdit to compose a Blogger or Wordpress blog post.  But if you're collaborati
+I find this feature to be useful if you want to use StackEdit to compose a Blogger or Wordpress blog post.  But if you're collaborating with other people, I'd stick to Synchronize unless you're sure you won't have to edit it again.
+
+### Keeping track of sync destinations
+If you choose to sync or publish your writing to multiple destinations, **StackEdit** makes it really easy for you to keep track of those destinations.  
 
 
 
@@ -59,5 +62,5 @@ UgZG9uZSBzby4ifX0sImNvbW1lbnRzIjp7IklHNUdOYU5UYUpH
 WGhIcjYiOnsiZGlzY3Vzc2lvbklkIjoic1pOMW1aa3E4cWtQWG
 pJViIsInN1YiI6ImdoOjY5NjczNjQwIiwidGV4dCI6ImNvdWxk
 IGJlIGRlbGV0ZWQiLCJjcmVhdGVkIjoxNTk5MjU4NDU5OTY0fX
-0sImhpc3RvcnkiOlstNzg2MzM3MDVdfQ==
+0sImhpc3RvcnkiOls1ODAzNDczNDddfQ==
 -->
