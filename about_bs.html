@@ -38,9 +38,9 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Inconsolata&family=Merriweather&family=Merriweather+Sans&family=Noto+Serif&family=Nunito&family=Nunito+Sans&family=Open+Sans&family=Quattrocento&family=Quattrocento+Sans&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="stylesone.css">
     <!-- Other local stylesheets go here -->
-    <link rel="stylesheet" type="text/css" href="css/newbstheme_copy.css">
+    <link rel="stylesheet" type="text/css" href="css/newbstheme_copy.css" />
+    <link rel="stylesheet" href="stylesone.css" type="text/css" />
 
     <!-- font awesome kit -->
     <script
@@ -50,11 +50,14 @@
 
     <meta name="theme-color" content="#fafafa" />
     <style>
-    body {
+    html {
+      font-family: 'Merriweather Sans', 'Open Sans', 'Roboto', sans-serif;
+    }
+    /* body {
         /* Testing out different fonts */
         /*font-family: 'Roboto Slab', 'Times New Roman', serif;*/
-        font-family: 'Alegreya Sans', 'Source Sans Pro', sans-serif;
-    }
+        /* font-family: 'Merriweather Sans', 'Source Sans Pro', sans-serif;
+    } */ 
     
     .fa-css3 {
         font-size: 4rem;
@@ -97,10 +100,15 @@
     div.reveal:hover p#tada {
       display:block;
     }
+    div#thebuttons {
+      display: flex;
+      flex-flow: row wrap;
+    }
     </style>
   </head>
 
   <body>
+    <div class="d-none" id="top">top of page</div>
     <header class="container-fluid text-center">
       <h1 style="color:navy;">Hello World!</h1> 
         <p>This is
@@ -133,10 +141,41 @@
 
     </main>
 
-    <div id="bottom">
-      <h2>Placeholder (bottom id)</h2>
+    <div id="bottom" class="container">
+      <h2>Testing out different bootstrap stuff.</h2>
 
     </div>
+    <div class="container d-flex" id="thebuttons">
+    <i class="fas fa-divide    "></i>
+    <button class="btn">
+            Notification <span class="badge badge-primary">Inside</span>
+    </button>
+    <button class="btn">
+            Notification <span class="badge badge-primary">Also inside</span>
+    </button>
+    <div class="dropdown open">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+            Dropdown
+          </button>
+      <div class="dropdown-menu" aria-labelledby="triggerId">
+        <button class="dropdown-item" href="#top"><a href="#top">Go to top of page</a></button>
+        <button class="dropdown-item disabled" href="#">Disabled action</button>
+      </div>
+    </div>
+    <p>
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#contentId" aria-expanded="false"
+          aria-controls="contentId">
+        Show
+      </button>
+    </p>
+    <div class="collapse" id="contentId">
+      Testing testing one two <i class="fa fa-align-justify" aria-hidden="true"></i>
+    </div>
+  </div>
+  <div class="container">
+    <span class="badge badge-pill badge-primary">Here is a badge</span>
+  </div>
     
    
 
@@ -162,11 +201,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <!-- <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script> -->
+    
   </body>
 </html>
