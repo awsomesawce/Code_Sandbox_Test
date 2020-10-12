@@ -14,13 +14,6 @@
 <div class="vim-test">
     <h2>This is a test of vim's features</h2>
     <p><code>h</code> for left, <code>l</code> for right, <code>j</code> for down, <code>k</code> for up.  Press esc to go back to moving mode </p>
-    <p>press <code>0</code> to goto the beginning of the line.</p>
-    <p>press <code>v</code> for visual mode which is a way to highlight text.  Press <code>u</code> to escape back to normal mode</p>
-    <p>press : to go to vim's command line.  type "help" there to open the help text</p>
-    <p>Cut, copy and paste are very different in Vim compared to most other editors on windows.</p>
-    <p>Cut is <kbd>"+x</kbd></p>
-    <p>Paste is <kbd>"+gP</kbd>.  This one is definitely the weirdest kbd shortcut ever.</p>
-    <p>To go forward one word, press <kbd>w</kbd>.  To go forward 5 words, it's 5w.</p>
 </div>
   <div class="stackedit__left">
     <div class="stackedit__toc">
